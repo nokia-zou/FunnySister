@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SWPost
 //
-//  Created by 朋 邹 on 16/4/30.
+//  Created by LittlePro on 16/4/30.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 

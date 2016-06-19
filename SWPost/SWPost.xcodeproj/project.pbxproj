@@ -29,6 +29,7 @@
 		F835E2B51D02BD8B0055B84D /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835E2A61D02BD8B0055B84D /* UIButton+Kingfisher.swift */; };
 		F835E2B71D02BFE50055B84D /* MineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835E2B61D02BFE50055B84D /* MineDataSource.swift */; };
 		F835E2BA1D02C0780055B84D /* MineBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835E2B91D02C0780055B84D /* MineBaseCell.swift */; };
+		F838A2491D16DFEE00C3A4FF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F838A2481D16DFEE00C3A4FF /* PostCell.swift */; };
 		F8795F381CD487370099CFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8795F371CD487370099CFB6 /* AppDelegate.swift */; };
 		F8795F3A1CD487370099CFB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8795F391CD487370099CFB6 /* ViewController.swift */; };
 		F8795F3D1CD487370099CFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8795F3B1CD487370099CFB6 /* Main.storyboard */; };
@@ -93,6 +94,7 @@
 		F835E2A61D02BD8B0055B84D /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		F835E2B61D02BFE50055B84D /* MineDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineDataSource.swift; sourceTree = "<group>"; };
 		F835E2B91D02C0780055B84D /* MineBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineBaseCell.swift; sourceTree = "<group>"; };
+		F838A2481D16DFEE00C3A4FF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		F8795F341CD487370099CFB6 /* SWPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8795F371CD487370099CFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8795F391CD487370099CFB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 		F8DDBE671D123FF700F62C19 /* PostCell */ = {
 			isa = PBXGroup;
 			children = (
+				F838A2481D16DFEE00C3A4FF /* PostCell.swift */,
 			);
 			path = PostCell;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 				F8795F511CD48DF70099CFB6 /* BaseViewController.swift in Sources */,
 				F8E5BCB81CD74B0100D52562 /* Result.swift in Sources */,
 				F8A07A6E1CDF5CE7004FC031 /* MineSquareDataSource.swift in Sources */,
+				F838A2491D16DFEE00C3A4FF /* PostCell.swift in Sources */,
 				F835E2AD1D02BD8B0055B84D /* ImageView+Kingfisher.swift in Sources */,
 				F8E5BCBA1CD74B0100D52562 /* Stream.swift in Sources */,
 				F8E5BCB61CD74B0100D52562 /* Response.swift in Sources */,

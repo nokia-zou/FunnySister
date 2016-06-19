@@ -2,7 +2,7 @@
 //  BaseProtocol.swift
 //  SWPost
 //
-//  Created by 朋 邹 on 16/5/2.
+//  Created by LittlePro on 16/5/2.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 

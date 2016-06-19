@@ -2,7 +2,7 @@
 //  UserCenter.swift
 //  SWPost
 //
-//  Created by 朋 邹 on 16/6/8.
+//  Created by LittlePro on 16/6/8.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 

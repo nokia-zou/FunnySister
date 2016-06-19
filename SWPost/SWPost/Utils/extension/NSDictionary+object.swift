@@ -2,7 +2,7 @@
 //  NSDictionary+object.swift
 //  SWPost
 //
-//  Created by 朋 邹 on 16/6/4.
+//  Created by LittlePro on 16/6/4.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 
