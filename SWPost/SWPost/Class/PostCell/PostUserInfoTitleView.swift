@@ -1,22 +1,22 @@
 //
-//  PostCell.swift
+//  PostUserInfoTitleView.swift
 //  SWPost
 //
-//  Created by LittlePro on 16/6/19.
+//  Created by 朋 邹 on 16/6/19.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 
 import UIKit
 
-class PostCell: UITableViewCell {
-    
+class PostUserInfoTitleView: PostTitleView {
+
     //  MARK: - property
-
-
+    var userHeaderView: UIImageView?
+    
     //  MARK: - init
-
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier);
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         
         //  config self
         self.backgroundColor = UIColor.clearColor()
@@ -34,24 +34,17 @@ class PostCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
     }
-
+    
     
     //  MARK: - init subviews
     private func addViews() {
         
     }
-
+    
     
     //  MARK: - bind data
-
-    func bindData(data: AnyObject?, viewController: UIViewController? = nil) {
-        
-    }
     
-    
-    //  MARK: - cell action
-
-    func didSelectCell(viewController: UIViewController?) {
+    override func bindData(data: AnyObject?, viewController: UIViewController? = nil) {
         
     }
 
