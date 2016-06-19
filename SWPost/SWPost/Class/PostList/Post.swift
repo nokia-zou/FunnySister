@@ -54,10 +54,11 @@ class Post: NSObject {
             self.onParseGif(typeDic)
         case "video":
             self.onParseVideo(typeDic)
+        case "voice":
+            self.onParseVoice(typeDic)
         default:
             self.postType = EPostType.UnKnow
         }
-
     }
     
     //  MARK: - parse
