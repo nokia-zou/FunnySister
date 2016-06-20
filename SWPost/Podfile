@@ -3,10 +3,11 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+platform :ios, '8.0'
+use_frameworks!
+
 target 'SWPost' do
 	pod "AsyncSwift"
-
-
+    pod "Alamofire"
+    pod "SQLite.swift"
 end
-
-use_frameworks!
