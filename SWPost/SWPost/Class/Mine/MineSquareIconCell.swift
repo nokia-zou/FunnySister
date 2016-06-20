@@ -13,6 +13,7 @@ let kMineSquareIconTitleHeight: CGFloat = 16.0
 let kMineSquareIconSideGap: CGFloat = 10.0
 
 import UIKit
+import Kingfisher
 
 class MineSquareIconCell: UICollectionViewCell {
     

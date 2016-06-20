@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Kingfisher
+
 
 class MineLoginCell: MineBaseCell {
 
