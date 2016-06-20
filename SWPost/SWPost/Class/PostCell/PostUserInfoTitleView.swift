@@ -2,7 +2,7 @@
 //  PostUserInfoTitleView.swift
 //  SWPost
 //
-//  Created by 朋 邹 on 16/6/19.
+//  Created by LittlePro on 16/6/19.
 //  Copyright © 2016年 zou. All rights reserved.
 //
 
