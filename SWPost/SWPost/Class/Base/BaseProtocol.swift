@@ -7,14 +7,15 @@
 //
 
 import UIKit
-import AVFoundation
+import Alamofire
+
 
 class BaseProtocol: NSObject {
     
     // MARK: - need overite if neet
-    func httpMethod() -> Method {
-        return  Method.GET
-    }
+//    func httpMethod() -> Method {
+//        return  Method.GET
+//    }
     
     /**
      *  host 参数

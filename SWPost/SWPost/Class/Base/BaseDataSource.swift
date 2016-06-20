@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 struct DBRequestResult {
     //  是否请求成功
@@ -62,7 +63,7 @@ class BaseDataSource: NSObject {
     private func sendRequestPrococol(pro: BaseProtocol ) -> Request {
         let path = pro.httpFullPath()
         
-        return Manager.sharedInstance.request(pro.httpMethod(), path!, parameters: nil).responseJSON { response in
+        return Manager.sharedInstance.request(Method.GET, path!, parameters: nil).responseJSON { response in
             self.parseRequestResponse(response)
         }
     }
