@@ -22,7 +22,7 @@ class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableVi
         
         self.createDataSource()
         
-        self.refreshData()
+//        self.refreshData()
     }
     
     // MARK: - UI
@@ -41,6 +41,8 @@ class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableVi
     func createDataSource() {
         //  net
         self.dataSource = PostListDataSource(url: "http://s.budejie.com/topic/list/jingxuan/10/bs0315-iphone-4.0/0-20.json");
+        
+        self.tableView?.reloadData()
     }
     
     func refreshData() {

@@ -13,6 +13,9 @@ class PostListDataSource: BaseDataSource {
     // MARK: - property
     private var url: String?
     
+    //  db
+    private var db: DBTable?
+
     //  post
     let postArray: NSMutableArray! = NSMutableArray()
     
@@ -22,6 +25,12 @@ class PostListDataSource: BaseDataSource {
         
         //  data
         self.url = url;
+        
+        //  db
+        self.db = DBTable(tabelName:"post")
+        
+        //  load
+        self.loadLocalData()
     }
     
     // MARK: - send
@@ -53,6 +62,10 @@ class PostListDataSource: BaseDataSource {
                 let dic = (list?[i] as? NSDictionary)
                 self.postArray.addObject(Post(dic: dic))
             }
+            
+            //  db
+            self.db?.clearTableData()
+            self.db?.insertDataArray(self.postArray)
         }
         else {
             for i in 0...((list?.count ?? 0) - 1) {
@@ -61,5 +74,11 @@ class PostListDataSource: BaseDataSource {
             }
         }
     }
-
+    
+    func loadLocalData() {
+        let posts = self.db?.loadDataArray()
+        if posts != nil {
+            self.postArray.addObjectsFromArray(posts as! [AnyObject])
+        }
+    }
 }
