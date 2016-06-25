@@ -13,5 +13,6 @@ target 'SWPost' do
     pod "SQLite.swift"
     pod "Kingfisher"
     pod "PKHUD"
+    pod "ChameleonFramework/Swift"
     
 end
