@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableViewDataSource {
     //  property
@@ -21,8 +22,6 @@ class PostListViewController: BaseViewController ,UITableViewDelegate ,UITableVi
         self.createTableView()
         
         self.createDataSource()
-        
-//        self.refreshData()
     }
     
     // MARK: - UI
